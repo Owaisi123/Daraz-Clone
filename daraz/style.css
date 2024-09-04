@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 450px;
+    width: 100%;background-color: gainsboro;
+}
+.header{
+    height: 150px;
+    width: 100%;background-color: orangered;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 320px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: lighter;
+    word-spacing: 2px;
+}
+.menu p{
+    margin-top: 0.3rem;
+}
+/* logo */
+.logo{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.logo img{
+    height: 50px;
+    width: 130px;
+}
+.second{
+    display: flex;
+    
+
+}
+.search{
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.search input{
+    width: 500px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+}
+.search ::placeholder{
+ color: blue;
+ padding-left: 25px;
+}
+/* input[type="search"]:focus {
+    outline: none; /* Removes the outline */
+    /* border: 1px solid transparent; /* Optional: If you want to ensure no border is visible */
+/* } */ 
+input[type="search"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Default border color */
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    outline: none; /* Remove the default focus outline */
+}
+
+input[type="search"]:focus {
+    border-color: #FF5733; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(255, 87, 51, 0.5); /* Optional: Subtle shadow on focus */
+}
+.icon{
+    background-color: #facbb0;
+    color: #eb8950;
+    font-size: large;
+    margin-top: 30px;
+    padding: 0.9rem;
+    border-radius: 2px;
+}
+.icon1{
+    margin-top: 39px;
+    margin-left: 30px;
+}
+.mainone{
+    padding-top: 130px;
+    display: flex;
+}
+.slidetwo img{
+    height:320px ;
+    width: 501px;
+}
+.slide img{
+  height: 320px;
+  margin-left: 350px;
+}
+.cardsbox{
+    height: 2300px;
+    background-color: rgba(128, 128, 128, 0.077);
+}
+.box{
+    padding-left: 350px;
+    padding-top: 20px;
+}
+.box p{
+    font-size: 22px;
+}
+.btnbox{
+    background-color:rgba(255, 255, 255, 0.815);
+    height: 70px;
+    width: 1420px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.btnn{display: flex;
+    justify-content: space-between;
+}
+.btnn p{
+    color: #f63409;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.sale{
+    padding-left: 30px;
+    margin-top: 1rem;
+}
+.shop{
+    border: 1px solid orangered;
+    margin-top: 20px;
+    padding: 0.5rem;
+    margin-right: 0.8rem;
+}
+.boxcards{
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.985);
+    margin-top: 5px;
+    width: 1420px;
+    margin-left: 350px;
+}
+.picture{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.pics p{
+    margin-left: 1rem;
+}
+.pics{
+    margin-left: 2rem;
+}
+.ctghead{
+    padding-left: 350px;
+    padding-top: 20px;
+}
+.ctghead p{
+    font-size: 22px;
+}
+.pictures{
+    margin-top: 5px;
+    margin-left: 350px;
+    display: flex;
+}
+.realprice{
+    color: #FF5733;
+    font-size: larger;
+}
+.price{
+    text-decoration: line-through;
+}
+.picsone{
+    padding-top: 1rem;
+    background-color: white;
+    /* border: 1px solid rgba(128, 128, 128, 0.437); */
+    width: 173px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+   margin-left: 0.3rem;
+}
+.picsone p{
+    background-color: white;
+    padding-top: 0.5rem;
+}
+.justhead{
+    padding-left: 350px;
+    padding-top: 20px;
+}
+.justpicone{
+    margin-top: 5px;
+    margin-left: 325px;
+    display:flex;
+}
+.justpics{
+    padding-top: 1rem;
+    /* background-color: white; */
+    /* border: 1px solid rgba(128, 128, 128, 0.437); */
+    width: 173px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+   margin-left:2rem;
+}
+.anotherpicsjust{
+    margin-top: 160px;
+    margin-left: 330px;
+    display: flex;
+}
+.justanotherpics{
+    padding-top: 1rem;
+    /* background-color: white; */
+    /* border: 1px solid rgba(128, 128, 128, 0.437); */
+    width: 173px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+   margin-left:2rem;
+}
+.lastpic{
+    margin-top: 160px;
+    margin-left: 330px;
+    display: flex;
+}
+.lastpics{
+    padding-top: 1rem;
+    /* background-color: white; */
+    /* border: 1px solid rgba(128, 128, 128, 0.437); */
+    width: 173px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+   margin-left:2rem;
+}
+.buttonmore{
+    margin-top: 13rem;
+    margin-left: 50rem;
+    color: rgba(0, 0, 255, 0.478);
+    border: 1px solid rgba(0, 0, 255, 0.46);
+    width: 25rem;
+    padding: 20px;
+    text-align:center ;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content:space-around;
+}
+.customlist{
+    font-size: x-large;
+}
+.custom p{
+    margin-top: 2rem;
+}
+.daraz p{
+    margin-top: 2rem;
+}
+.logodaraz{
+    margin-top: 5rem;
+    display: flex;
+}
+.appdown{
+    margin-top: 4rem;
+}
+.logodaraz img{
+    height: 60px;
+}
+.logodaraz p{
+    margin-left: 1rem;
+}
+.happy{
+    color: orangered;
+    
+}
+.download{
+    color:darkblue;
+    line-height: 6rem;
+}
+.headd{
+    margin-top: 5rem;
+    margin-right:1rem;
+}
+.appdown img{
+    height: 20%;
+}
+.methods{
+    margin-top: 5rem;
+    margin-left: 6rem;
+    font-size: larger;
+    color: darkblue;
+    display: flex;
+    
+}
+.payment img{
+    height: 40%;
+}
+.verify img{
+height: 30%;
+}
+.header{
+    position: fixed;
+}
+.name img{
+    height: 40px;
+}
+.count{
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.follow img{
+    height: 70px;
+}
+.follow p {
+    margin-top: 2rem;
+    font-size: x-large;
+}
+
+
+
+/* media query */
+
+
+@media (max-width: 1200px) {
+    .menu {
+        margin-right: 200px;
+    }
+    
+    .logo {
+        margin-left: 300px;
+    }
+    
+    .slide img {
+        margin-left: 100px;
+    }
+    
+    .box, .btnbox, .boxcards {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo {
+        margin-left: 150px;
+    }
+    
+    .menu {
+        gap: 15px;
+        margin-right: 100px;
+    }
+    
+    .search input {
+        width: 300px;
+    }
+    
+    .mainone, .picture, .pictures, .justpicone, .anotherpicsjust, .lastpic {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box, .btnbox, .boxcards {
+        padding-left: 0;
+        margin-left: 0;
+        width: auto;
+    }
+    
+    .buttonmore {
+        margin-left: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        margin-right: 0;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .logo {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .search {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .search input {
+        width: 100%;
+    }
+    
+    .box, .btnbox, .boxcards {
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .buttonmore {
+        margin-left: 0;
+        width: auto;
+    }
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*  */
+
+
+@media (max-width: 992px) {
+    .boxcards {
+        width: auto;
+        margin-left: 0;
+        padding: 10px;
+    }
+    
+    .picsone {
+        width: 150px; /* Adjust width for smaller screens */
+        height: 130px; /* Adjust height for smaller screens */
+        margin-left: 1rem; /* Adjust margin for better spacing */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    .boxcards {
+        width: 100%;
+        padding: 5px; /* Reduced padding for smaller screens */
+    }
+    
+    .picsone {
+        width: 100px; /* Further adjust width for smaller screens */
+        height: 90px; /* Further adjust height for smaller screens */
+        margin-left: 0.5rem; /* Adjust margin for better spacing */
+    }
+}
+
+/* For very small mobile screens */
+@media (max-width: 576px) {
+    .boxcards {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+        width: 100%;
+    }
+    
+    .picsone {
+        width: 100%; /* Full width for cards on very small screens */
+        height: auto; /* Adjust height based on content */
+        margin-left: 0;
+        margin-bottom: 1rem; /* Add bottom margin for spacing between cards */
+    }
+}
+/*  */
+
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+        gap: 15px;
+        font-size: 12px;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .logo img {
+        height: 40px;
+        width: auto;
+    }
+
+    .search {
+        margin-left: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .search input {
+        width: calc(100% - 20px);
+        height: 40px;
+    }
+
+    .mainone {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+
+    .slide img,
+    .slidetwo img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .cardsbox,
+    .boxcards {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .box {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+}
